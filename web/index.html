@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input id="name"></td>                    
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="board" cols="55" rows="20" readonly="true"></textarea>
+                </td>                
+            </tr>
+            <tr>
+                <td><input id="text"></td>
+                <td><input id="send" type="button" value="Send"</td>                    
+            </tr>
+        </table>
+        </form>
+        <hr>
+        <div id="message"></div>
+        <script src="chatboard.js"></script>
+        <script src="websocket.js"></script>
+    </body>
+</html>
